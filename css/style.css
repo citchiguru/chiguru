@@ -456,6 +456,8 @@ pre {
 
 .container {
   width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -7857,7 +7859,11 @@ h1, h2, h3, h4, h5,
   -o-transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
-  transition: all 0.3s ease; }
+  transition: all 0.3s ease;
+  overflow: hidden;
+  box-sizing: border-box;
+  min-height: 510px;
+margin: 0 15px 25px;}
   .block-7 .heading {
     font-size: 14px;
     line-height: 1;
@@ -7890,7 +7896,7 @@ h1, h2, h3, h4, h5,
   .block-7 .label2 {
     text-transform: uppercase; }
   .block-7 .pricing-text, .block-7 .pricing-text li {
-    padding: 0;
+    padding-left: 4px;
     margin: 0; }
   .block-7 .pricing-text li {
     list-style: none;
@@ -7903,7 +7909,6 @@ h1, h2, h3, h4, h5,
     bottom: 0;
     left: 0;
     right: 0;
-    width: 60%;
     margin: 0 auto; }
     .block-7 .btn-primary:hover, .block-7 .btn-primary:focus {
       background: #6b76ff !important;
@@ -7925,7 +7930,7 @@ h1, h2, h3, h4, h5,
     @media (max-width: 767.98px) {
       .ftco-about .one-half.img {
         height: 300px; } }
-
+ 
 .services {
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
@@ -8182,7 +8187,8 @@ textarea.form-control {
     display: block;
     color: #6b76ff; }
   .ftco-media.text-center .ftco-icon {
-    margin: 0 auto; }
+    margin: 0 auto;
+    padding-bottom: 16px; }
 
 .ftco-overflow-hidden {
   overflow: hidden; }
