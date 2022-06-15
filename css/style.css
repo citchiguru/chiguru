@@ -5129,8 +5129,31 @@ button.bg-dark:focus {
   display: -webkit-inline-box !important;
   display: -ms-inline-flexbox !important;
   display: inline-flex !important; }
+@media (min-width: 360px) {
+  
+   #timer{
+    padding-right: 6%;
+  } 
+  #days{
+    padding-left: 10%;
+  }
+  .responsive{
+    max-height: 50%;
+    max-width: 90%;
+    padding-left: 7%;
+  }
+  #hehehe{
+    max-width: 90%;
+    max-height:90% ;
+    padding-left: 9%;
+  }
+  
+}
 
 @media (min-width: 576px) {
+  #timer{
+    padding-left: 5%;
+  }
   .d-sm-none {
     display: none !important; }
   .d-sm-inline {
