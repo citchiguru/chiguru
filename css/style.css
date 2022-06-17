@@ -74,15 +74,26 @@ hr {
   overflow: visible; }
 
   h1{
-    box-shadow: inset 0 0 0 0 #54b3d6;
-  color: #54b3d6;
-  padding: 0 .25rem;
-  margin: 0 -.25rem;
-  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    background:
+      linear-gradient(
+        to right,
+        rgba(100, 200, 200, 1),
+        rgba(100, 200, 200, 1)
+      ),
+      linear-gradient(
+        to right,
+        rgba(255, 0, 0, 1),
+        rgba(255, 0, 180, 1),
+        rgba(0, 100, 200, 1)
+    );
+    background-size: 100% 3px, 0 3px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms;
   }
+  
   h1:hover{
-    color: #fff;
-  box-shadow: inset 250px 0 0 0 #54b3d6;;
+    background-size: 0 3px, 100% 3px;
     
 }
 h1, h2, h3, h4, h5, h6 {
